@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Social Media</title>
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css2?family=Damion&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+<!-- nav -->
+  <nav class="main-header">
+    <ul class="main-nav">
+      <li><a href="index.html">home</a></li>
+      <li><a href="why.html">why social media</a></li>
+      <li class="dropdown">
+		  <a href="which.html">which social media</a>
+			<ul class="drop-nav">
+		  		
+				<li class="flyout">
+					<a href="communicate.html">Communicate</a>
+					<ul class="flyout-nav">
+						<li><a href="whatsapp.html">WhatsApp</a></li>
+						<li><a href="twitter.html">Twitter</a></li>
+					</ul>
+				</li>
+				
+				<li class="flyout">
+					<a href="share.html">Share</a>
+					<ul class="flyout-nav">
+						<li><a href="slack.html">Slack</a></li>
+						<li><a href="facebook.html">Facebook</a></li>
+					</ul>
+				</li>
+				
+				<li class="flyout">
+					<a href="teach.html">Teach</a>
+					<ul class="flyout-nav">
+						<li><a href="youtube.html">YouTube</a></li>
+						<li><a href="tiktok.html">TikTok</a></li>
+					</ul>
+				</li>
+				
+		  	</ul>
+		</li>
+      <li><a href="contact.html">contact</a></li>
+    </ul>
+  </nav> 
+	<!-- nav ends -->
+	<!-- sidebar with icons starts -->
+  <div class="sbar">
+  	<img src="images/slack.png" class="icon i1" alt="slack">
+	<img src="images/facebook.png" class="icon i2" alt="facebook">
+	<img src="images/youtube.png" class="icon i3" alt="youtube">
+	<img src="images/tiktok.png" class="icon i4" alt="tiktok">
+	<img src="images/twitter.png" class="icon i5" alt="twitter">
+	<img src="images/whatsapp.png" class="icon i6" alt="whatsapp">
+  </div>
+	<!-- sidebar with icons ends -->
+	
+	 <header>
+	 	<h1>Have a question?</h1>
+	 </header>
+	<!-- content starts -->
+	 <div class="questions">
+		 <p>We're here to help and improve. Have suggestions? Feedback? Comments? Leave them below! If you need help from us, don't hesitate to let us know!</p>
+		 <!-- form starts-->
+	<form action="/" method="get">
+		<fieldset>
+			<legend>Personal Details</legend>
+			<label id="name">Name *</label>
+			<input name="name" type="text" placeholder="First Name, Surname" required><br>
+			<label id="address">Address *</label>
+			<input name="address" type="text" placeholder="123, Helpful Street, Dublin" required><br>
+			<label id="age">Age Range *</label><br>
+			<select name="age" required size="4">
+				<option value="u18">Under 18</option>
+				<option value="1825">18-25</option>
+				<option value="26-34">26-34</option>
+				<option value="35">35+</option>
+			</select><br>
+			<label id="gender">Gender</label><br>
+			<input id="male" type="radio"><span class="mfn">Male</span>
+			<input id="female" type="radio"><span class="mfn">Female</span>
+			<input id="nope"  type="radio"><span class="mfn">Prefer Not To Say</span><br>
+			<label id="email">Email *</label>
+			<input name="email" type="email" placeholder="johnsmith&#64;email.com" required><br>
+			<label id="number">Phone Number</label>
+			<input name="number" type="tel" placeholder="0123456789"><br>
+		</fieldset>
+		<fieldset>
+			<legend>Your Experience With Us</legend>
+			<label id="experience">Which of the following brought you here? *</label> <br>
+			<select name="experience" required>
+				<option label="Select one" id="Select one" disabled>Select One:</option>
+				<option id="teach">Teaching</option>
+				<option id="learn">Learning</option>
+				<option id="etc">Other</option>
+			</select><br>
+			<label id="other">If other is selected, why?</label><br>
+			<textarea name="other" ></textarea>
+		</fieldset>
+		<fieldset>
+			<legend>Contact Us</legend>
+			<label id="comment">Have something to say?</label><br>
+			<textarea name="comment"  placeholder="Let us know if you want us to contact you about your answers!"></textarea>
+		 </fieldset>
+		<button id="submit" type="submit">Submit</button>
+	 </form>
+		 <!-- form ends -->
+	</div>
+	<!-- content ends -->
+	<!-- footer with sitemap starts -->
+	<footer>
+		&copy; Rosie Murray 2020 | <a href="sitemap.html">sitemap</a>
+	</footer>
+	<!-- footer with sitemap ends -->
+	</body>
+ </html>
